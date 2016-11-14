@@ -1,0 +1,121 @@
+/**
+ * Products simple filter: module for PrestaShop 1.4
+ *
+ * @author     zapalm <zapalm@ya.ru>
+ * @copyright (c) 2012-2016, zapalm
+ * @link      http://prestashop.modulez.ru/en/frontend-features/44-products-simple-filter.html The module's homepage
+ * @license   http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
+ */
+
+a.simplefilter-reset-image, a.simplefilter-color, a.simplefilter-price, a.simplefilter-sex-man, a.simplefilter-sex-woman, a.simplefilter-other, a.manufacturer {
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 45px;
+    margin-right: 10px;
+    outline: medium none;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    width: 45px;
+}
+
+a.simplefilter-color, a.simplefilter-other, a.simplefilter-reset-image, a.simplefilter-sex-man, a.simplefilter-sex-woman, a.simplefilter-price, a.manufacturer {
+    border: 1px dashed transparent;
+    text-align: center;
+}
+
+a.simplefilter-reset-image:hover, a.simplefilter-color:hover, a.simplefilter-sex-man:hover, a.simplefilter-sex-woman:hover, a.simplefilter-other:hover, a.simplefilter-price:hover, a.simplefilter-selected, a.manufacturer:hover {
+    border: 1px dashed lightgray;
+}
+
+span.simplefilter-title {
+    height: 40px;
+    width: 100px;
+}
+
+a.simplefilter-reset-image {
+    background: url("images-toolbar.png") no-repeat scroll 0 0 transparent;
+    background-position: 0 -80px;
+    margin-right: 0;
+}
+
+a.simplefilter-reset-image:hover {
+    background-position: 0 -120px;
+}
+
+a.simplefilter-reset {
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 19px;
+    text-decoration: none !important;
+}
+
+div.simplefilter-title {
+    display: block;
+    float: none;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 7px;
+    text-decoration: none !important;
+}
+
+div.simplefilter-title {
+
+}
+
+a.simplefilter-color {
+
+}
+
+a.simplefilter-price {
+    font-size: 11px;
+    text-align: center;
+    height: 100%;
+    font-weight: normal;
+    white-space: normal;
+}
+
+a.simplefilter-sex-man {
+    background: url("images-toolbar.png") no-repeat scroll 0 0 transparent;
+    background-position: 0 0;
+}
+
+a.simplefilter-sex-woman {
+    background: url("images-toolbar.png") no-repeat scroll 0 0 transparent;
+    background-position: 0 -40px;
+}
+
+a.manufacturer {
+    font-size: 11px;
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    font-weight: normal;
+    white-space: normal;
+    padding-left: 0;
+}
+
+a.simplefilter-other {
+
+}
+
+div.simplefilter-toolbar {
+    display: block;
+    background-color: #EDEBE8;
+}
+
+div.simplefilter-buttons-group {
+    background-color: #EDEBE8;
+    float: left;
+    width: 90%;
+    margin-right: 2px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+div.last-buttons-group {
+    margin-right: 0;
+}
